@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-projects"
+version = "0.0.1"
+description = ""
+authors = ["Joaquin Alvarez <alvarez.joaquinez@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
